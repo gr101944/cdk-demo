@@ -12,11 +12,11 @@ npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws
 
 npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://accountno/us-east-1
 
-### Deploy modules
+### Deploy modules, 'default' below is the AWS profile, it may be different and you have to choose what you have in your profile, stackname as in the 'bin' folder
   
 npx cdk deploy --profile default <stack name>
   
-### Note: default above is the AWS profile, it may be different and you have to choose what you have in your profile
+### Note: 
   
 
 This is a blank project for TypeScript development with CDK.
