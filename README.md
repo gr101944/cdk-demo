@@ -2,7 +2,7 @@
 
 ## What does it do?
 
-This project creates a CDK pipeline to deploy an API Gateway and Lambda function to a particular account, region and stage
+This project creates a CDK pipeline to deploy an API Gateway and Lambda function to a particular account, region and stage of your choice (dev, preprod, prod, etc)
 
 ### Initialize repository
 
