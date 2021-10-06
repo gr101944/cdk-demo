@@ -5,7 +5,7 @@ npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws
 
 npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://accountno/us-east-1
 
-## Note: replace account number with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
+## Note: replace accountno with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
 
 
   
