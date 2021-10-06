@@ -5,13 +5,13 @@ npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws
 
 npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://accountno/us-east-1
 
-##Note: replace account number with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
+## Note: replace account number with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
 
 
   
 npx cdk deploy --profile default <stack name>
   
-##Note: default above is the AWS profile, it may be different and you have to choose what you have in your profile
+## Note: default above is the AWS profile, it may be different and you have to choose what you have in your profile
   
 
 This is a blank project for TypeScript development with CDK.
