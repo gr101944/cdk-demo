@@ -3,7 +3,11 @@ cdk init --language=typescript
 
 npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws-cdk/aws-codepipeline-actions @types/aws-lambda @aws-cdk/pipelines
 
-npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://<accountno>/us-east-1
+npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://accountno/us-east-1
+
+##Note: replace account number with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
+
+
   
 npx cdk deploy --profile default <stack name>
   
