@@ -1,13 +1,18 @@
 # Welcome to your CDK TypeScript project!
+
+### Initialize repository
+
 cdk init --language=typescript
+
+### Download Modules
 
 npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws-cdk/aws-codepipeline-actions @types/aws-lambda @aws-cdk/pipelines
 
+### Bootstrap - replace accountno with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
+
 npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://accountno/us-east-1
 
-### Note: replace accountno with AWS account number. Bootstrapping needs to be done once per (Account and Region) combination
-
-
+### Deploy modules
   
 npx cdk deploy --profile default <stack name>
   
