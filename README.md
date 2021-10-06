@@ -1,9 +1,14 @@
 # Welcome to your CDK TypeScript project!
 cdk init --language=typescript
+
 npm i @aws-cdk/aws-apigateway @aws-cdk/aws-lambda @aws-cdk/aws-codepipeline @aws-cdk/aws-codepipeline-actions @types/aws-lambda @aws-cdk/pipelines
+
 npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://<accountno>/us-east-1
+  
 npx cdk deploy --profile default <stack name>
+  
 ##Note: default above is the AWS profile, it may be different and you have to choose what you have in your profile
+  
 
 This is a blank project for TypeScript development with CDK.
 
