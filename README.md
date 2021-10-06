@@ -1,5 +1,9 @@
 # Welcome to your CDK TypeScript project!
 
+## What does it do?
+
+This project creates a CDK pipeline to deploy an API Gateway and Lambda function to a particular account, region and stage
+
 ### Initialize repository
 
 cdk init --language=typescript
@@ -16,12 +20,7 @@ npx cdk bootstrap  --profile default --cloudformation-execution-policies arn:aws
   
 npx cdk deploy --profile default <stack name>
   
-### Note: 
-  
 
-This is a blank project for TypeScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
